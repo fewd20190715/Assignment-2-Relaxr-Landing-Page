@@ -68,14 +68,27 @@ body {
   height: 500px;
 
 }
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
 ul {
-  padding: 0px !important;
+  padding-left: 0px !important;
 }
 
 a {
   text-decoration: none;
 }
 
+a:visited{
+ display: none;
+}
+
+a:hover {
+  cursor: hand;
+  cursor: pointer;
+}
 div {
   padding: 0px;
   margin: 0px;
@@ -88,7 +101,6 @@ header {
 
 header h1{
   font-size: 24px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   color: #FFF;
   padding-top: 20px;
@@ -98,7 +110,6 @@ header h1{
 
 header h2{
   font-size: 24px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   text-align: center;
   color: #FFF;
@@ -140,20 +151,72 @@ footer {
 
 footer h4{
   font-size: 24px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   color: #f9e42e;
   padding-top: 30px;
 
 }
 
+.benefits-container{
+  text-align: left;
+  background-color: #f0efef;
+  padding: 30px;
+}
+
+.benefits-text-container{
+  width: 500px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
 .benefits-title{
-  
+  font-weight: 600px;
+  font-size: 20px;
+  color: #033048;
 }
 
 .benefits-text {
-  text-align: left;
+  padding-bottom: 20px;
+  font-size: 13px;
+  font-weight: 300px;
+  color: #606161;
 }
+
+.benefits-text-container ul {
+  padding-left: 40px !important;
+  list-style: disc;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+  color: #606161;
+}
+
+.quote-container {
+  text-align: center;
+  padding: 30px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+.quote-text-container {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.quote-text {
+  font-size: 18px;
+  color: #FFF;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.author {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFF;
+}
+
 .social{
   display: flex;
   width: 125px;
@@ -165,7 +228,7 @@ footer h4{
 }
 .copyright {
   font-size: 9px;
-  font-weight: 600px;
+  font-weight: 600;
   color: #fff;
   padding-top: 40px;
   padding-bottom: 50px;
