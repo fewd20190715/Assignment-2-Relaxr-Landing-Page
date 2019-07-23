@@ -15,6 +15,8 @@ Developer @GA in NYC
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
+     margin: 0px;
+     padding: 0px;
 }
 
 /* Clear fix hack */
@@ -51,7 +53,7 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background-size: cover;
 }
 
 
@@ -62,23 +64,113 @@ body {
 /* Center the container */
 #container {
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   height: 500px;
 
 }
+ul {
+  padding: 0px !important;
+}
 
+a {
+  text-decoration: none;
+}
+
+div {
+  padding: 0px;
+  margin: 0px;
+}
 header {
+ text-align: center;
+ padding-bottom: 200px;
+ margin: 0px;
+}
 
+header h1{
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #FFF;
+  padding-top: 20px;
+  padding-left: 40px;
+  text-align: left !important;
+}
+
+header h2{
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #FFF;
+  padding: 40px;
+}
+
+.getitnow {
+  background-color: #f9e42e;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 600px;
+  border-radius: 5px;
+  text-align: center;
+  color: #033048;
+}
+
+.signup-container{
+  background-color:#f9e42e;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+}
+
+.signup-btn {
+  background-color: #033048;
+  padding: 10px 30px;
+  font-size: 12px;
+  font-weight: 800px;
+  border-radius: 5px;
+  text-align: center;
+  color: #FFF !important;
 }
 
 footer {
+ background-color:#121212;
+ text-align: center;
+ margin: 0px;
+}
 
+footer h4{
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #f9e42e;
+  padding-top: 30px;
+
+}
+
+.benefits-title{
+  
+}
+
+.benefits-text {
+  text-align: left;
+}
+.social{
+  display: flex;
+  width: 125px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  list-style: none;
+}
+.copyright {
+  font-size: 9px;
+  font-weight: 600px;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
