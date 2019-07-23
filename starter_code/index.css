@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+header {
+    margin: 0 auto;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+    background: url(images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    /* background-size: cover; */
+    background-size: 100%;
+    height: 700px;
+}
+
+h1 {
+    max-width: 1000px;
+    color: white;
+    font-size: 50px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+h3 {
+    font-size: 35px;
+}
+p {
+    max-width: 700px;
+    font-size: 25px;
+}
+li{
+    font-size: 25px;
+}
+h4{
+    font-size: 40px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.getIt {
+    max-width: 750px;
+    font-size: 30px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.now {
+    background: goldenrod;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    margin-right: auto;
+    width: 250px;
+    margin-left: auto;
+}
+.benefits {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testimonial {
+    background: url(images/testimonial_bg.jpg);
+    width: 100%;
+    height:394px;
+    padding-top: 40px;
+}
+.quote{
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    font-size: 35px;
+    margin: 100px auto;
+}
+.sign {
+    background: goldenrod;
+    font-size: 30px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.socialMedia li{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+.up {
+    background: navy;
+    width: 250px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    border-block-color: 1px solid white;
+    border-radius: 5px;
+    margin: 20px;
+}
+#twitter{
+    background: black;
+    border: 1px solid black;
+}
+#facebook{
+    background: black;
+    border: 1px solid black;
+}
+#copyright{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    color: yellow;
+    padding: 0 0 30px 0;
+}
