@@ -32,17 +32,22 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: circle;
 }
 blockquote, q {
-	quotes: none;
+	quotes: "“" "”" "‘" "’"; /* two pairs */
+	font-size: 20px; /*didn't follow reccomended size */
+	font-weight: 300;
+	position: center;
+
+}
 }
 blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+q:before {
+    content: open-quote;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+q:after {
+    content: close-quote;
 }
+
