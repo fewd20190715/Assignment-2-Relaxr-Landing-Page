@@ -1,10 +1,9 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr
+Client: 
+Author: Rohit Vaswani
 Developer @GA in NYC
 */
-
 
 /******************************************
 /* SETUP
@@ -42,43 +41,163 @@ Developer @GA in NYC
 }
 
 /******************************************
-/* BASE STYLES
+/* BASE STYLES - CONTAINERS
 /*******************************************/
 
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+#topContainer {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  margin: 0 auto;
+  padding:10px;
+  width: 100%;
+  height: 225px;
 }
 
+#benefitContainer{
+  background-color:whitesmoke;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight:800;
+  margin: 10px;
+  padding:10px;
+  width: 100%;
+  height: 200px;
+}
+
+#quoteContainer{
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+  height: 125px;
+}
+
+#signupContainer{
+  background: #f9e42e;
+  margin: auto;
+  height: 60px;
+}
+
+#lowerContainer{
+  background: #121212;
+  height: 120px;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
-
+#topContainer h1{
+  color: white;
+  font-size: 24px;
+  font-weight:800; /*extra bold*/
+  margin:10px;
+  padding:10px;
 }
 
-header {
-
+#topContainer p{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight:600; /*medium bold*/
+  margin:10px;
+  padding:10px;
 }
 
-footer {
+#topContainer button{
+  background-color:#f9e42e;
+  color:#033048;
+  font-size: 14px;
+  font-weight:600; /*medium bold*/
+  margin:10px;
+  padding:10px;
+  width:150px;
+  border-radius: 5px;
+  position: absolute;
+  left: 45%;
+}
 
+#benefitContainer h1{
+  color:#033048;
+  font-size: 24px;
+  font-weight:800; /*extra bold*/
+  margin:10px;
+  padding:10px;
+}
+
+#benefitContainer p{
+  color:darkgray;
+  font-size:13px;
+  font-weight:300; /*light*/
+  margin:10px;
+  padding:10px;
+}
+
+#benefitContainer ul{
+  color:darkgray;
+  font-size:13px;
+  font-weight:300; /*light*/
+  margin:10px;
+  padding:10px;
+  list-style-type:disc;
+}
+
+#quoteContainer p{
+  color:white;
+  font-size:18px;
+  font-style: italic;
+  font-weight:300; /*light*/
+  text-align: center;
+  margin:10px;
+  padding:10px;
+}
+
+#signupContainer button{
+  color:lightgray;
+  background-color:#033048;
+  font-size: 12px;
+  font-weight:800; /*extra bold*/
+  margin:10px;
+  padding:10px;
+  width:150px;
+  border-radius: 5px;
+  position: absolute;
+  left: 45%;
+}
+
+#lowerContainer h1{
+  color:yellow;
+  font-size: 24px;
+  font-weight:800; /*extra bold*/
+  text-align: center;
+  padding:10px;
+}
+
+#lowerContainer #socialIcon1{
+  display: inline-block;
+  height:25px;
+  width:25px;
+  padding-left:47%;
+  margin:12px;
+}
+
+#lowerContainer #socialIcon2{
+  display: inline-block;
+  height:25px;
+  width:25px;
+  margin-left:12px;
+}
+
+#lowerContainer footer{
+  color:white;
+  font-size: 9px;
+  font-weight:600; /*medium bold*/
+  text-align: center;
+  padding:10px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
