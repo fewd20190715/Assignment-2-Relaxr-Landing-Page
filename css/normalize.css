@@ -127,10 +127,14 @@ h1 {
     margin: 0.67em 0;
 }
 
-h2 {
-    font-size: 1.5em;
+/* h1 .benefits  {
+    font-size: 40px;
     margin: 0.83em 0;
-}
+    padding: 70px 100px;
+    font-weight: semi bold;
+    color: #033048;
+  
+} */
 
 h3 {
     font-size: 1.17em;
