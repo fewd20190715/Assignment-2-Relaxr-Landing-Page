@@ -1,0 +1,135 @@
+/* This font doesnt seem to link and I can't figure out why. Please provide feedback */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    background-image: url('../images/header_bg.jpg');
+    padding-bottom: 100px;
+    padding-left: 45px;
+}
+
+#header h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    padding-top: 15px;
+}
+
+#header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+ #benefits{
+     background-color: #f0efef;
+ }
+
+ #benefits h2 {
+     font-size: 20px;
+     font-weight: 600;
+ }
+ 
+button {
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    width: 20%;
+    margin-left: 42%;
+    margin-right: 42%;
+    display: inline-block;
+}
+
+.btn-get-it-now {
+    border: 5px solid #f9e42e;
+    background-color: #f9e42e;
+    color: #033048;
+}
+
+#second-button {
+    background-color: #f9e42e;
+    padding: 25px;
+}
+
+.btn-sign-up {
+    border: 5px solid #033048;
+    background-color: #033048;
+    color: white;
+}
+
+#benefits {
+    padding: 45px;
+}
+
+#benefits h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#benefits p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#benefits ul {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#testimonial {
+    background-image: url('../images/testimonial_bg.jpg');
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 20%;
+    padding-left: 20%;
+    color: white;
+}
+
+#testimonial .quote {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+#testimonial p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    background-color:#606161;
+}
+
+footer h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9e42e;
+    text-align: center;  
+}
+
+.twitter {
+    margin-left: 40%;
+    float: left;
+    padding-bottom: 15px;
+}
+
+.facebook {
+    width: 350px;
+    margin-right: auto;
+    float: right;
+    padding-bottom: 15px;
+
+}
+
+footer h4 {
+    font-size: 9px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    clear: both;
+}
