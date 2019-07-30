@@ -1,0 +1,144 @@
+body{
+    font-family: "open sans", arial;
+    margin-left: 25%;
+    width:50%;
+    background:lightgrey;
+}
+
+footer {
+    height: 200px;
+    background: #121212;
+    text-align: center;
+}
+
+footer p {
+    color: yellow;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+footer #copyright {
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+}
+header {
+    text-align: center;
+    background: url(../images/header_bg.jpg) center, no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.logo{
+    text-align: left;
+    padding-top: 3%;
+    margin-left: 10%;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.catchPhrase {
+    margin-top: 10%;
+    font-size: 24px;
+    font-weight: semibold;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    margin-top: 4%;
+    width: 200px;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    background: yellow;
+    font-weight: bolder;
+}
+
+.benefits-box{
+    height: 200px;
+    color: #033048;
+}
+
+.benefits-body {
+    width: 50%;
+    margin-left: 12%;
+    margin-top: 2%;
+    font-size: 13px;
+}
+
+.benefit-point{
+    margin-left: 14%;
+    margin-top: 2%;
+    list-style-type:disc;
+}
+
+#benefits{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#person{
+    font-style: normal;
+}
+.quote {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    width: 50%;
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0 auto 0 auto;
+    padding-top: 6%;
+}
+
+.signup {
+    height: 75px;
+    background: yellow;
+    text-align: center;
+}
+
+.signup button{
+    color: white;
+    font-weight:bolder;
+    font-size: 12px;
+    border-radius: 5px;
+    background: #033048;
+    padding: 10px 15px;
+    margin-top: 20px;
+    width: 200px;
+    border: 1px solid #033048;
+}
+.social-media {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.social-media li {
+    display: inline;
+}
+.testemonial {
+    background: url(../images/testimonial_bg.jpg);
+    height: 200px;
+}
+
+#facebook {
+    background: #121212;
+    border: 1px solid #121212;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#twitter {
+    background: #121212;
+    border: 1px solid #121212;
+    padding: 10px;
+    padding-bottom: 0;
+}
