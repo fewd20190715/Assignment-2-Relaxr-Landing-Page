@@ -1,0 +1,33 @@
+/* margin, padding, background-color, border */
+
+/* *(SELECTS EVERYTHING aka "Universal Selector") */
+
+div, header, footer {
+    background-color: lightgrey;
+    border: 1px solid darkgrey;
+    margin-bottom: 8px;
+    /* margin: 8px */
+}
+
+footer {
+    height: 200px;
+    clear: both;
+}
+
+header {
+    height: 200px;
+}
+
+div {
+    height: 500px;
+    float: left;
+}
+
+.left {
+    width: 72%;
+}
+
+.right {
+    width: 25%;
+    margin-left: 16px;
+}
