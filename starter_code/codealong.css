@@ -1,0 +1,48 @@
+div {
+    background: lightgrey;
+    border: 1px solid blanchedalmond;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    /* margin-top: 200px; */
+    /*width: 50%;*/
+    /*margin: 0 auto;*/
+    /*display: inline-block;*/
+    height: 500px;
+    margin-right: 16px;
+    box-sizing: border-box;
+}
+
+.first {
+ width: 45%;;
+ float: left;
+}
+
+.second {
+    width: 45%;
+    float: left;
+    background-color: greenyellow;
+}
+
+p {
+    clear: left;
+}
+
+/*
+block-level elements:
+- div
+- p
+- h1 - h6
+- nav
+- list
+
+Inline elements:
+- span
+- images
+- code
+*/
+
+span {
+    background: darkgray;
+}

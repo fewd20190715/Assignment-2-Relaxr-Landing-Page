@@ -1,0 +1,140 @@
+div {
+    background-color: lightgrey;
+    border: 1px solid darkgrey;
+}
+
+
+
+footer {
+    height: 100px;
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 75px;
+    background-color: black;
+    align-content: center;
+}
+
+header {
+    height: 200px;
+}
+
+div {
+    height: 600px;
+    /*float: left;*/
+
+}
+ul {
+    width: 550px;
+}
+
+.header-container {
+    background-image: url("images/header_bg.jpg")
+}
+
+.header-container h1 {
+    height: 125px;
+    font-size: 300%;
+    margin-left: 10%;
+    font-weight: bold;
+    color: white;
+}
+
+.header-container h2 {
+    font-size: 300%;
+    text-align: center;
+    color: white;
+}
+
+.header-container button {
+    padding: 10px 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+}
+
+.benefits-container {
+    background-color: lightgray;
+}
+
+.benefits-container h1 {
+    font-size: 300%;
+    padding-left: 7%;
+    padding-top: 5%;
+    color: navy;
+}
+
+.benefits-container h2 {
+    padding-left: 7%;
+    padding-right: 15%;
+    font-size: 200%;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: rgb(58, 55, 55);
+}
+
+.benefits-container ul {
+    padding-left: 15%;
+    font-size: 220%;
+    color: rgb(58, 55, 55);
+
+}
+
+.quote-container {
+    height: 400px;
+    background-image: url("images/testimonial_bg.jpg")
+}
+
+.quote-container h3 {
+    width: 650px;
+    padding-left: 300px;
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.quote-container h4 {
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    height: 20px;
+    margin-top: 1px;
+}
+
+.sign-up-container {
+    background-color: yellow;
+    height: 150px;
+}
+
+.sign-up-container button {
+    padding: 10px 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    display: block;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.footer-container {
+    height: 400px;
+    background-color: black;
+    text-align: center;
+}
+
+.footer-container span {
+    margin-left: 15px;
+}
+
+.footer-container p {
+    color: white;
+    padding-top: 40px;
+}
+
